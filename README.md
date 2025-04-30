@@ -1,6 +1,34 @@
 # EmotionMIL: An End-to-End Multiple Instance Learning Framework for Emotion Recognition from EEG Signals
 
-# The code will be released once the paper is accepted.
+## Prepare the data
+
+Download the datasets (access requirements may apply) from the following links:
+
+- [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/)
+
+Replace the data path in the code with the path to the downloaded data. Run the "xxxreader.py" to preprocess the data. For example, to preprocess the DEAP dataset, run the following code:
+
+```python
+python deapreader.py
+```
+
+## Run the code
+
+### Subject dependent cross-validation
+
+To run the code for subject-dependent cross-validation, use the following command:
+
+```python
+python main_intrasub.py --dataset deap --arch eegmixer --mil retmil
+```
+
+### Subject independent leave-one-out cross-validation
+
+To run the code for subject-independent leave-one-out cross-validation, use the following command:
+
+```python
+python main_crosssub.py --dataset deap --arch eegmixer --mil retmil
+```
 
 ## Overview
 
