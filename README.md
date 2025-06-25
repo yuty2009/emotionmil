@@ -40,12 +40,13 @@ python main_crosssub.py --dataset deap --arch eegmixer --mil retmil
 If you use the code or results in your research, please consider citing our work at:
 
 ```
-@article{yu2024emotionmil,
+@article{yu2025emotionmil,
   title={EmotionMIL: An End-to-End Multiple Instance Learning Framework for Emotion Recognition from EEG Signals},
-  author={},
-  journal={},
-  year={2024},
-  doi={},
-  url={},
+  author={Jun Xiao, Feifei Qi, Lingli Wang, Yanbin He, Jingang Yu, Wei Wu, Zhuliang Yu, Yuanqing Li, Zhenghui Gu, Tianyou Yu},
+  journal={IEEE Transactions on Affective Computing},
+  year={2025},
+  pages={1-17},
+  doi={10.1109/TAFFC.2025.3581388},
+  url={https://ieeexplore.ieee.org/abstract/document/11045084},
 }
 ```
